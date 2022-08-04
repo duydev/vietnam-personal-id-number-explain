@@ -2,7 +2,10 @@
   "name": "vietnam-personal-id-number-explain",
   "version": "0.0.2",
   "description": "Vietnam personal id number explain",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "nodemon src/index.ts",
     "test": "mocha -r ts-node/register src/**/*.test.ts",
