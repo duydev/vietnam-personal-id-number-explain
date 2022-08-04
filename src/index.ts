@@ -31,3 +31,4 @@ function explain(pid: string): IResult {
 }
 
 export default explain;
+module.exports = explain;
