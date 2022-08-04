@@ -1,6 +1,6 @@
 {
   "name": "vietnam-personal-id-number-explain",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vietnam personal id number explain",
   "main": "dist/index.js",
   "files": [
@@ -11,8 +11,7 @@
     "test": "mocha -r ts-node/register src/**/*.test.ts",
     "coverage": "nyc --reporter=html -- npm run test",
     "build": "tsc --build",
-    "clean": "tsc --build --clean",
-    "publish": "npm publish"
+    "clean": "tsc --build --clean"
   },
   "repository": {
     "type": "git",
