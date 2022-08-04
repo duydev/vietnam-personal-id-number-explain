@@ -31,4 +31,28 @@ describe('explain', () => {
       explain('asdfi');
     }).throw('Invalid vietnam personal id number format');
   });
+
+  it('should return value', () => {
+    const result = explain('101205000257');
+
+    expect(result).to.be.deep.equal({
+      birthPlace: 'Afghanistan',
+      birthYear: 2005,
+      centuryOfBirth: 21,
+      gender: 'Male',
+      randomNumber: '000257'
+    });
+  });
+
+  it('should return value with null birthplace', () => {
+    const result = explain('999205000257');
+
+    expect(result).to.be.deep.equal({
+      birthPlace: null,
+      birthYear: 2005,
+      centuryOfBirth: 21,
+      gender: 'Male',
+      randomNumber: '000257'
+    });
+  });
 });
