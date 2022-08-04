@@ -5,8 +5,10 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "test": "mocha -r ts-node/register src/**/**.test.ts",
-    "coverage": "nyc --reporter=html -- npm run test"
+    "test": "mocha -r ts-node/register src/**/*.test.ts",
+    "coverage": "nyc --reporter=html -- npm run test",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
   },
   "repository": {
     "type": "git",

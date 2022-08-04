@@ -27,3 +27,8 @@ console.log(result);
 //  }
 
 ```
+
+## References / Tài liệu tham khảo
+
+- http://congan.thuathienhue.gov.vn/tin-tuc-su-kien/tin-ho-t-d-ng/1814-%C3%BD-ngh%C4%A9a-c%E1%BB%A7a-12-s%E1%BB%91-tr%C3%AAn-th%E1%BA%BB-c%C4%83n-c%C6%B0%E1%BB%9Bc-c%C3%B4ng-d%C3%A2n
+- https://vietnamnet.vn/12-con-so-tren-can-cuoc-cong-dan-gan-chip-an-chua-thong-tin-gi-800537.html
