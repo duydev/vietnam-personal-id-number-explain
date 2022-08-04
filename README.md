@@ -1,5 +1,7 @@
 # Vietnam Personal ID Number Explain / Giải nghĩa mã số CCCD Việt Nam
 
+[![CI](https://github.com/duydev/vietnam-personal-id-number-explain/actions/workflows/main.yml/badge.svg)](https://github.com/duydev/vietnam-personal-id-number-explain/actions/workflows/main.yml)
+
 ## Installation / Cài đặt
 
 ```
